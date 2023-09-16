@@ -11,10 +11,15 @@ int Method1()
   for (int i = 0; i < 10; i++)
   {
 
-    // When the loop runs, it will create a beep sound, and then it will repeat the same process.
-    cout << "\nProgramming Fundamentals Task \a"; // /a will genertate a default sound
-    Sleep(2000);                                  // Every iteration  will run with a delay of 2 seconds.
+    // When the loop runs, it will create a beep sound, and then it will repeat the same process 9 times .    
+	cout <<"\n"<<  i << " Programming Fundamentals Task  \a \n";      // /a will genertate a default sound
+
+
+    
+	Sleep(2000);                                  // Every iteration  will run with a delay of 2 seconds.
   };
+    return 0;
+
 }
 
 int Method2()
@@ -25,16 +30,17 @@ int Method2()
   for (int i = 0; i < 10; i++)
   {
 
-    cout << " \nProgramming Fundamentals Task ";
+    cout <<" \n"<< i << " Programming Fundamentals Task \n";
     Beep(200, 500); // this will also genertae a beep voice which will be diff for /a
     Sleep(2000);
   };
+  return 0;
 };
 
 int main()
 {
   // Here is the maian function, where I call both functions.
-  Method1();
+//  Method1();
 
-  Method2();
+   Method2();
 }
