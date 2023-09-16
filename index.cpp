@@ -40,7 +40,7 @@ int Method2()
 int main()
 {
   // Here is the maian function, where I call both functions.
-//  Method1();
+ Method1();
 
    Method2();
 }
