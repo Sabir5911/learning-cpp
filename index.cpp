@@ -17,9 +17,9 @@ int Method1()
   };
 }
 
+int Method2()
 // method 2 where i genarate sound with the help of Beep() function where i pass two parameters of frequency
 
-int Method2()
 {
 
   for (int i = 0; i < 10; i++)
